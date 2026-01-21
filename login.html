@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Fashion Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+    <h2 class="text-2xl font-bold text-center mb-6">Iniciar sesión</h2>
+
+    <!-- Login Form -->
+    <form>
+      <input type="email" placeholder="Correo electrónico" class="w-full border rounded px-3 py-2 mb-4" required>
+      <input type="password" placeholder="Contraseña" class="w-full border rounded px-3 py-2 mb-4" required>
+      <div class="flex justify-between items-center mb-6">
+        <label class="flex items-center text-sm">
+          <input type="checkbox" class="mr-2"> Recordarme
+        </label>
+        <a href="#" class="text-sm text-blue-500">¿Olvidaste tu contraseña?</a>
+      </div>
+      <button type="submit" class="w-full bg-black text-white py-2 rounded hover:bg-gray-800">Iniciar sesión</button>
+    </form>
+
+    <!-- Social Login -->
+    <div class="space-y-3 mt-6">
+      <button class="w-full flex items-center justify-center gap-3 bg-red-500 text-white py-2 rounded hover:bg-red-600">
+        <i class="fab fa-google"></i> Continuar con Google
+      </button>
+      <button class="w-full flex items-center justify-center gap-3 bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
+        <i class="fab fa-facebook-f"></i> Continuar con Facebook
+      </button>
+    </div>
+
+    <!-- Switch to Register -->
+    <p class="text-center mt-6 text-sm">
+      ¿No tienes cuenta? 
+      <a href="#" class="text-blue-500 font-medium">Regístrate</a>
+    </p>
+  </div>
+</body>
+</html>   

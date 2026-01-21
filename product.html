@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Camisa Casual Premium | Fashion Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<header class="bg-white shadow p-4 flex justify-between max-w-7xl mx-auto">
+  <a href="index.html" class="font-bold">FASHION STORE</a>
+  <a href="carrito.html">🛒 Carrito</a>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-10">
+  <!-- IMAGEN -->
+  <div>
+    <div class="h-96 bg-gray-300 rounded mb-4 flex items-center justify-center text-gray-500">
+      [Imagen del producto]
+    </div>
+    <div class="flex gap-2">
+      <div class="w-20 h-20 bg-gray-300 rounded"></div>
+      <div class="w-20 h-20 bg-gray-300 rounded"></div>
+    </div>
+  </div>
+
+  <!-- INFO -->
+  <div>
+    <p class="text-gray-500">Hombre</p>
+    <h1 class="text-2xl font-bold mb-4">Camisa Casual Premium</h1>
+    <p class="text-xl font-semibold mb-6">$899 MXN</p>
+
+    <p class="text-gray-600 mb-4">
+      Camisa moderna de alta calidad, ideal para uso diario. Diseño clásico con detalles refinados, perfecta para ocasiones casuales o de trabajo.
+    </p>
+
+    <!-- Talla -->
+    <label class="block mb-2 font-medium">Talla</label>
+    <select class="border rounded px-3 py-2 mb-4 w-full">
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+      <option>XL</option>
+    </select>
+
+    <!-- Cantidad -->
+    <label class="block mb-2 font-medium">Cantidad</label>
+    <input type="number" value="1" min="1" class="border rounded px-3 py-2 mb-6 w-24">
+
+    <!-- Botones -->
+    <div class="flex gap-4 mb-8">
+      <a href="carrito.html" class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition">
+        Agregar al carrito
+      </a>
+      <a href="carrito.html" class="border border-black px-6 py-2 rounded hover:bg-gray-100 transition">
+        Comprar ahora
+      </a>
+    </div>
+
+    <!-- Detalles técnicos -->
+    <div class="mt-8 border-t pt-6">
+      <h3 class="font-semibold text-lg mb-4">Detalles del producto</h3>
+      <ul class="text-sm text-gray-700 space-y-2">
+        <li><strong>Composición:</strong> 100% algodón peinado</li>
+        <li><strong>Corte:</strong> Regular fit</li>
+        <li><strong>Cuello:</strong> Clásico con refuerzo interno</li>
+        <li><strong>Mangas:</strong> Larga con puño ajustado</li>
+        <li><strong>Origen:</strong> Confeccionado en México</li>
+      </ul>
+    </div>
+
+    <!-- Cuidado -->
+    <div class="mt-8 border-t pt-6">
+      <h3 class="font-semibold text-lg mb-4">Cuidado y recomendaciones</h3>
+      <ul class="text-sm text-gray-700 space-y-2">
+        <li>✅ Lavar a máquina con agua fría</li>
+        <li>✅ Usar detergentes suaves</li>
+        <li>✅ No usar blanqueador</li>
+        <li>✅ Secar colgado a la sombra</li>
+        <li>✅ Planchar del revés a temperatura media</li>
+      </ul>
+    </div>
+  </div>
+</main>
+</body>
+</html>   

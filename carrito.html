@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito | Fashion Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow p-4 max-w-7xl mx-auto flex justify-between">
+    <a href="index.html" class="font-bold">FASHION STORE</a>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold mb-6">Carrito</h1>
+
+    <!-- Producto -->
+    <div class="bg-white p-6 rounded shadow mb-4 flex justify-between items-center">
+      <div>
+        <h2 class="font-medium">Camisa Casual Premium</h2>
+        <p class="text-gray-500 text-sm">Talla: M | Cantidad: 1</p>
+      </div>
+      <p class="font-bold">$899 MXN</p>
+    </div>
+
+    <!-- Resumen -->
+    <div class="bg-white p-6 rounded shadow mb-6">
+      <h3 class="font-semibold text-lg mb-4">Resumen de compra</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between">
+          <span>Subtotal</span>
+          <span>$899 MXN</span>
+        </div>
+        <div class="flex justify-between">
+          <span>Impuestos (16%)</span>
+          <span>$143.84 MXN</span>
+        </div>
+        <div class="flex justify-between">
+          <span>Envío</span>
+          <span>Gratis</span>
+        </div>
+        <div class="border-t pt-2 mt-2 flex justify-between font-bold">
+          <span>Total</span>
+          <span>$1,042.84 MXN</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cupón -->
+    <div class="bg-white p-6 rounded shadow mb-6">
+      <h3 class="font-semibold text-lg mb-4">Cupón de descuento</h3>
+      <div class="flex gap-2">
+        <input type="text" placeholder="Código de cupón" class="border rounded px-3 py-2 flex-1 text-sm">
+        <button class="bg-gray-800 text-white px-4 py-2 rounded text-sm">Aplicar</button>
+      </div>
+    </div>
+
+    <!-- Pago -->
+    <div class="bg-white p-6 rounded shadow mb-6">
+      <h3 class="font-semibold text-lg mb-4">Datos de la tarjeta</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" placeholder="Nombre en la tarjeta" class="border rounded px-3 py-2">
+        <input type="text" placeholder="Número de tarjeta" class="border rounded px-3 py-2">
+        <input type="text" placeholder="MM/YY" class="border rounded px-3 py-2">
+        <input type="text" placeholder="CVC" class="border rounded px-3 py-2">
+      </div>
+    </div>
+
+    <button class="w-full bg-black text-white py-3 rounded font-semibold hover:bg-gray-800 transition">
+      Proceder al pago
+    </button>
+  </main>
+</body>
+</html>   
